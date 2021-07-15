@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 414px;
+    max-height: 287px;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+}
+
+/* Utilities */
+
+h1 {
+   font-size: 2rem;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.logo h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+    padding-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+ul {
+    list-style: none;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+ul li {
+    padding: 0.4rem;
+}
+
+ul li a {
+    cursor: pointer;
+}
+
