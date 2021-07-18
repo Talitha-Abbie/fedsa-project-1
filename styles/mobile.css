@@ -1,20 +1,41 @@
-@media only screen and (min-width: 600px) {
-    body {
-        max-width: 1080px;
-    }
+
     
-    header {
+header {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding: 0.5rem 2rem;
+        padding: 0.5rem 3rem;
     }
 
-    .logo h1 {
+.logo h1 {
         padding: 0;
     }
 
-    ul li {
+nav ul li {
         display: inline-block;
+        margin-right: 1.2rem;
     }
+
+.footer-flex {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: start;
 }
+
+.footer-banner {
+    justify-content: center;
+    text-align: center;
+    font-size: 1.6rem
+}
+
+.footer-flex > div:nth-child(2),
+.footer-flex > div:nth-child(1) {
+    margin-bottom: 0; 
+}
+
+.box {
+    width: 50%;
+    margin: auto;
+}
+
