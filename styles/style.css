@@ -13,8 +13,14 @@ body {
 
 /* Utilities */
 
+.container {
+    background: #f9f9f9;
+    padding: 1rem;
+}
+
 h1 {
    font-size: 3rem;
+   font-weight: 300;
 }
 
 h3 {
@@ -101,7 +107,13 @@ header {
     font-size: 1.8rem;
 }
 
+/* Product Card */
+
 /* Footer */
+footer {
+    background: #F9F9F9;
+}
+
 .footer-flex {
     display: flex;
     flex-direction: column;
