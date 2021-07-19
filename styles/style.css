@@ -8,14 +8,13 @@ body {
     width: 100%;
     height: 100%;
     font-family: 'Roboto', sans-serif;
-    margin: auto;
 }
 
 /* Utilities */
 
 .container {
     background: #f9f9f9;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 h1 {
@@ -24,13 +23,17 @@ h1 {
 }
 
 h3 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
 a {
     text-decoration: none;
     color: #000000;
+}
+
+p {
+    font-size: 1.2rem;
 }
 
 .footer-flex a:hover {
@@ -109,9 +112,46 @@ header {
 
 /* Product Card */
 
+
+.card {
+    padding: 1rem;
+    background: #ffffff;
+}
+
+.card h2 {
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-bottom: 0.9rem;
+}
+
+.card p {
+    text-decoration: line-through;
+    color: #8C8C8C;
+    font-weight: 300;
+}
+
+.card h3 {
+    font-weight: 300;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex ul li {
+    display: inline-block;
+    align-self: flex-end;
+}
+
+.flex ul li img {
+    width: 25px;
+    height: 25px;
+}
+
 /* Footer */
 footer {
-    background: #F9F9F9;
+    background: #e0e0e0;
 }
 
 .footer-flex {
