@@ -14,6 +14,32 @@ nav ul li {
     margin-right: 1.2rem;
 }
 
+.container {
+    background: #f9f9f9;
+    padding: 2rem 8rem;
+}
+
+
+/* Product Card */
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 15px 30px 7px rgba(0, 0, 0, 0.05);
+    margin-bottom: 1.2rem;
+}
+
+.flexbox img {
+    object-fit: center center/cover;
+    width: 50%;
+}
+
+.flexbox.flex-reverse {
+    flex-direction: row-reverse;
+}
+
+/* Footer */
+
 .footer-flex {
 flex-direction: row;
 justify-content: space-between;
