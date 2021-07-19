@@ -36,6 +36,12 @@ p {
     font-size: 1.2rem;
 }
 
+span {
+    font-weight: 300;
+    font-size: 1rem;
+    padding-bottom: 1.5rem;
+}
+
 .footer-flex a:hover {
     color: #01213F;
     font-weight: bold;
@@ -167,8 +173,7 @@ header {
 }
 
 .flex ul li {
-    display: inline-block;
-    
+    display: inline;  
 }
 
 .flex ul li img {
