@@ -43,6 +43,11 @@ nav ul li {
     color: #000000;
 }
 
+.flex-item-1 h2 {
+    text-overflow: none;
+    white-space: normal;
+}
+
 /* Footer */
 
 .footer-flex {
