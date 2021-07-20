@@ -38,6 +38,11 @@ nav ul li {
     flex-direction: row-reverse;
 }
 
+.flex-item-1 p {
+    text-decoration: none;
+    color: #000000;
+}
+
 /* Footer */
 
 .footer-flex {
