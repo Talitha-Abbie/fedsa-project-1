@@ -47,7 +47,7 @@ span {
     font-weight: bold;
 }
 
-ul {
+ ul {
     list-style: none;
     font-size: 1.1rem;
     font-weight: 500;
@@ -136,6 +136,8 @@ header {
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
     padding: 1rem 1.5rem;
     background: #ffffff;
     width: 100%;
@@ -169,7 +171,6 @@ header {
 .flex {
     display: flex;
     justify-content: space-between;
-
 }
 
 .flex ul li {
