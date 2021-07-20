@@ -159,6 +159,15 @@ header ul {
 
 }
 
+.flex-item-1 h2 {
+    display: inline-block;
+    flex: none;
+    white-space: nowrap;
+    width: 220px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .card p {
     text-decoration: line-through;
     color: #8C8C8C;
