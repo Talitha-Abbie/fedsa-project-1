@@ -2,7 +2,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 2rem 3rem;
+    padding: 0.5rem 6rem;
 }
 
 .logo h1 {
@@ -16,12 +16,28 @@ nav ul li {
 
 .container {
     background: #f9f9f9;
-    padding: 2rem 4rem;
+    padding: 2rem 10rem;
 }
+
+@media only screen and (min-width: 1400px) {
+    .container {
+        padding: 2rem 25rem;
+    }
+}
+
+    .flex-item-1 h2 {
+        display: inline-block;
+        flex: none;
+        white-space: nowrap;
+        width: 290px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
 
 .btn-dark {
     width: 50%;
-    margin: 0 25%;
+    margin: 0% 25%;
 }
 
 /* Product Card */
@@ -31,6 +47,7 @@ nav ul li {
     flex-direction: row;
     box-shadow: 0px 15px 30px 7px rgba(0, 0, 0, 0.05);
     margin-bottom: 1.2rem;
+    
 }
 
 .flexbox img {
@@ -40,6 +57,12 @@ nav ul li {
 
 .flexbox.flex-reverse {
     flex-direction: row-reverse;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .flex-item-1 p {
@@ -73,6 +96,6 @@ margin-bottom: 0;
 }
 
 .box {
-width: 50%;
+width: 30%;
 margin: auto;
 }
