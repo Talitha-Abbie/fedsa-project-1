@@ -71,6 +71,7 @@ ul li a {
 }
 
 .btn-dark {
+    display: flex;
     color: #FFFFFF;
     background: #C48B98;
     font-size: 1.1rem;
@@ -78,6 +79,9 @@ ul li a {
     padding: 1rem 3rem;
     width: 100%;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
 }
 
 /* Header */
