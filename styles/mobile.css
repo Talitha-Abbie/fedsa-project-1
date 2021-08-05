@@ -15,8 +15,12 @@ nav ul li {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: #f9f9f9;
-    padding: 2rem 4rem;
+    padding: 4% 10%;
 }
 
 .btn-dark {
@@ -31,15 +35,16 @@ nav ul li {
     flex-direction: row;
     box-shadow: 0px 15px 30px 7px rgba(0, 0, 0, 0.05);
     margin-bottom: 1.2rem;
+    
+}
+
+li:nth-child(even) .flexbox {
+    flex-direction: row-reverse;
 }
 
 .flexbox img {
     object-fit: center center/cover;
     width: 50%;
-}
-
-.flexbox.flex-reverse {
-    flex-direction: row-reverse;
 }
 
 .flex-item-1 p {
